@@ -223,7 +223,7 @@ def follow_influencers_followers(influencer):
 
 def dm_new_followers():
     api = tweepy.API(auth)
-    message = "Hey, do you have any weddings "
+    message = "Hey, do you have any weddings coming up any time soon?"
 
     followers = api.followers_ids()
     sent_profiles = []
